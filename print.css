@@ -1,0 +1,9 @@
+footer, nav, .hide-print { display: none !important; }
+
+body {
+	font-size: .75rem;
+}
+
+.container {
+	width: 100% !important;
+}

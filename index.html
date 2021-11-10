@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <title>Tezos Paper Wallet Beta</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="bootstrap.min.css" rel="stylesheet" >
+  <link href="print.css" rel="stylesheet" media="print">
+  <link href="app.css" rel="stylesheet" media="print">
+
+ </head>
+  <body>
+
+   <div class="col-lg-8 mx-auto p-3 py-md-5">
+
+    <main>
+     <div class="hide-print">
+      <h1>Tezos Paper Wallet <span style="color: red;">Beta</span></h1>
+      <p class="fs-5 col-md-8">
+      Some small blurb in here about how to use this thing.
+      </p>
+     </div>
+
+     <p class="hide-print">
+
+      <a type="button" class="btn btn-success" href="#" onClick="MakeWallet()">
+       Create Wallets
+      </a>
+
+      <a type="button" class="btn btn-primary" href="#" onClick="window.print()">
+       Print
+      </a>
+
+     </p>
+
+    <div class="wallet-container" id="wallet-container"></div>
+    <br />
+    <div class="wallet-container" id="wallet-container2"></div>
+    <br />
+    <div class="wallet-container" id="wallet-container3"></div>
+
+    </main>
+
+    <footer class="pt-5 my-5 text-muted border-top">
+     Brought to life by Jarrod Woodard and
+     <a href="https://riedstra.dev/">
+      Mitchell Riedstra
+     </a>.
+    </footer>
+
+   </div>
+
+   <script src="bootstrap.bundle.min.js"></script>
+   <script src="eztz.min.js"></script>
+   <script src="qrious.min.js"></script>
+   <script src="app.js"></script>
+
+  </body>
+</html>
+
