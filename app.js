@@ -54,17 +54,32 @@ function renderWallet(tezosAddress, seedPhrase, pubkeyQR) {
 	}).toDataURL();
 	return `
 <svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    viewBox="0 0 840 198"
    fill="none"
    version="1.1"
    id="svg3288"
-   sodipodi:docname="betaxtzwallettemplate.svg"
-   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
+   sodipodi:docname="betaxtzwallettemplatev2.svg"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)">
+  <metadata
+     id="metadata4263">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
   <sodipodi:namedview
      id="namedview3290"
      pagecolor="#ffffff"
@@ -89,10 +104,10 @@ function renderWallet(tezosAddress, seedPhrase, pubkeyQR) {
      inkscape:zoom="2"
      inkscape:cx="412.25"
      inkscape:cy="99"
-     inkscape:window-width="2989"
-     inkscape:window-height="1468"
-     inkscape:window-x="327"
-     inkscape:window-y="115"
+     inkscape:window-width="2560"
+     inkscape:window-height="1375"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
      inkscape:window-maximized="0"
      inkscape:current-layer="svg3288"
      inkscape:snap-others="false"
@@ -132,7 +147,7 @@ function renderWallet(tezosAddress, seedPhrase, pubkeyQR) {
      id="rect3237"
      style="fill:url(#pattern224769)" />
   <image
-     x="472.73935"
+     x="470.73935"
      y="63.5"
      width="74"
      height="75"
@@ -290,19 +305,19 @@ function renderWallet(tezosAddress, seedPhrase, pubkeyQR) {
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.33333px;font-family:Roboto;-inkscape-font-specification:Roboto;fill:#000000;fill-opacity:1;stroke:none">Public Key QR code:</tspan></text>
   <text
      xml:space="preserve"
-     style="font-weight:bold;font-size:9.33333px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto, Bold';text-align:center;text-anchor:middle;stroke:#000000;stroke-opacity:1"
-     x="509.72568"
+     style="font-weight:bold;font-size:9.33333015px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto, Bold';text-align:center;text-anchor:middle;stroke:#000000;stroke-opacity:1"
+     x="507.72568"
      y="44.212242"
      id="text25212-1"><tspan
        sodipodi:role="line"
        id="tspan25210-8"
-       x="509.72568"
+       x="507.72568"
        y="44.212242"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.33333px;font-family:Roboto;-inkscape-font-specification:Roboto;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none">Seed phrase</tspan><tspan
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.33333015px;font-family:Roboto;-inkscape-font-specification:Roboto;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none">Seed phrase</tspan><tspan
        sodipodi:role="line"
-       x="509.72568"
+       x="507.72568"
        y="55.878906"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.33333px;font-family:Roboto;-inkscape-font-specification:Roboto;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.33333015px;font-family:Roboto;-inkscape-font-specification:Roboto;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
        id="tspan5287"> QR code:</tspan></text>
   <text
      xml:space="preserve"
@@ -318,19 +333,19 @@ function renderWallet(tezosAddress, seedPhrase, pubkeyQR) {
    id="tspan80844">Private Key</tspan> in the form of a 15 word seed phrase</tspan></text>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:10.6667px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto Medium';text-align:center;text-anchor:middle;opacity:1;fill:#000000;fill-opacity:1"
-     x="689.25708"
+     style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:10.66670036px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto Medium';text-align:center;text-anchor:middle;opacity:1;fill:#000000;fill-opacity:1"
+     x="693.25708"
      y="167.56245"
      id="text46272"><tspan
        sodipodi:role="line"
        id="tspan46270"
-       x="689.25708"
+       x="693.25708"
        y="167.56245"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:Roboto">For security only get your wallet links from <tspan
    style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:'Roboto Bold';fill:#0d61ff;fill-opacity:1"
    id="tspan166228">Tezos.com</tspan></tspan><tspan
        sodipodi:role="line"
-       x="690.57739"
+       x="694.64374"
        y="180.89583"
        id="tspan64706"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:Roboto">we recommend the Kukai wallet </tspan></text>
@@ -362,7 +377,7 @@ function renderWallet(tezosAddress, seedPhrase, pubkeyQR) {
        id="tspan17081">privacy and security at:</tspan></text>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8px;font-family:Roboto;-inkscape-font-specification:Roboto;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:3;stroke-linejoin:round;stroke-opacity:1"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8px;font-family:Roboto;-inkscape-font-specification:Roboto;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;text-align:center;text-anchor:middle;opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:3;stroke-linejoin:round;stroke-opacity:1"
      x="140.41129"
      y="165.35196"
      id="text141228"><tspan
@@ -371,10 +386,10 @@ function renderWallet(tezosAddress, seedPhrase, pubkeyQR) {
        x="140.41129"
        y="165.35196">Directions at:<tspan
    style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:'Roboto Bold'"
-   id="tspan142886"> cryptowallet.so</tspan></tspan></text>
+   id="tspan142886"> volxtz.com</tspan></tspan></text>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8px;font-family:Roboto;-inkscape-font-specification:Roboto;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:3;stroke-linejoin:round;stroke-opacity:1"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8px;font-family:Roboto;-inkscape-font-specification:Roboto;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:3;stroke-linejoin:round;stroke-opacity:1"
      x="99.001953"
      y="-788.21063"
      id="text141228-4"
@@ -382,40 +397,39 @@ function renderWallet(tezosAddress, seedPhrase, pubkeyQR) {
        sodipodi:role="line"
        id="tspan141226-0"
        x="99.001953"
-       y="-788.21063"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Roboto;-inkscape-font-specification:'Roboto Bold'"
-         id="tspan142886-2">cryptowallet.so</tspan></tspan></text>
+       y="-788.21063"
+       style="-inkscape-font-specification:'Roboto Bold';font-family:Roboto;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal">volxtz.com</tspan></text>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.33333px;font-family:Roboto;-inkscape-font-specification:Roboto;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:3;stroke-linejoin:round;stroke-opacity:1"
-     x="505.74716"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.33333015px;font-family:Roboto;-inkscape-font-specification:Roboto;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east_asian:normal;text-align:center;text-anchor:middle;opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:3;stroke-linejoin:round;stroke-opacity:1"
+     x="503.74716"
      y="152.55469"
      id="text155330"><tspan
        sodipodi:role="line"
        id="tspan155328"
-       x="505.74716"
+       x="504.44049"
        y="152.55469"
-       style="font-size:5.33333px">Think of private keys and seed </tspan><tspan
+       style="font-size:5.33333015px">Think of private keys and seed </tspan><tspan
        sodipodi:role="line"
-       x="505.74716"
+       x="503.74716"
        y="159.22134"
        id="tspan156806"
-       style="font-size:5.33333px">phrases as being the keys to a safe</tspan><tspan
+       style="font-size:5.33333015px">phrases as being the keys to a safe</tspan><tspan
        sodipodi:role="line"
-       x="505.74716"
+       x="503.74716"
        y="165.88802"
        id="tspan156808"
-       style="font-size:5.33333px" /><tspan
+       style="font-size:5.33333015px" /><tspan
        sodipodi:role="line"
-       x="505.74716"
+       x="503.74716"
        y="172.55467"
        id="tspan156810"
-       style="font-size:5.33333px">Whoever has either can take what is</tspan><tspan
+       style="font-size:5.33333015px">Whoever has either can take what is</tspan><tspan
        sodipodi:role="line"
-       x="505.74716"
+       x="503.74716"
        y="179.22134"
        id="tspan156814"
-       style="font-size:5.33333px">in that safe, from anywhere in the world</tspan></text>
+       style="font-size:5.33333015px">in that safe, from anywhere in the world</tspan></text>
   <text
      xml:space="preserve"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.66667px;font-family:Roboto;-inkscape-font-specification:Roboto;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:3;stroke-linejoin:round;stroke-opacity:1"
@@ -1237,7 +1251,7 @@ function renderWallet(tezosAddress, seedPhrase, pubkeyQR) {
      y="166.5"
      id="text35195"><tspan
        sodipodi:role="line"
-       id="tspan35193"></tspan></text>
+       id="tspan35193" /></text>
   <text
      xml:space="preserve"
      id="text56907"
