@@ -16,7 +16,15 @@ window.onload = function() {
 }
 
 function GenKeys() {
-	return eztz.crypto.generateKeys(eztz.crypto.generateMnemonic(), 0);
+	var mnemonic = cryptoUtils.utils.generateMnemonic(15);
+	var seed = cryptoUtils.utils.mnemonicToSeed(mnemonic);
+	var keyPair = cryptoUtils.utils.seedToKeyPair(seed);
+	console.log(keyPair);
+
+	return {
+		pkh: keyPair.pkh,
+		mnemonic: mnemonic,
+	};
 }
 
 function MakeWallet() {

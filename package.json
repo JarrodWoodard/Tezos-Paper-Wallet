@@ -1,0 +1,8 @@
+{
+  "scripts": {
+	  "copy": "cp node_modules/@tezos-core-tools/crypto-utils/dist/main.js tezos-utils.js"
+  },
+  "dependencies": {
+    "@tezos-core-tools/crypto-utils": "^0.0.7"
+  }
+}
